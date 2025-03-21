@@ -3,9 +3,9 @@
 
 This repository contains a C++ program that converts a mathematical expression from **postfix notation** (Reverse Polish Notation) to **infix notation** while maintaining the correct operator precedence.
 
-## 📜 Problem Description
+## Problem Description
 
-### 🔹 What is Postfix Notation?
+### What is Postfix Notation?
 Postfix notation (RPN) is a mathematical notation in which operators follow their operands. It eliminates the need for parentheses to define precedence.
 
 ### 🔹 What Does This Program Do?
@@ -13,7 +13,7 @@ Postfix notation (RPN) is a mathematical notation in which operators follow thei
 - Converts it to a **properly parenthesized infix expression**.
 - Ensures **correct operator precedence**.
 
-## 🚀 How It Works
+## How It Works
 
 The program:
 1. Uses a **stack** to store operands.
@@ -23,7 +23,7 @@ The program:
    - **Operators** (`+`, `-`, `*`, `/`): Pop the top two operands, format them as an infix expression with parentheses, then push the result back.
 4. The final **remaining element in the stack** is the fully converted **infix expression**.
 
-## 📌 Example Usage
+## Example Usage
 
 ### **Input 1:**
 Postfix: ab+c-
