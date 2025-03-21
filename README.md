@@ -24,7 +24,7 @@ The program:
 
 ## Example Usage
 
-### **Input 1:**
+### **Input:**
 Postfix: ab+c-
 ### **Processing:**
 1. `a` → Push  
@@ -33,5 +33,5 @@ Postfix: ab+c-
 4. `c` → Push  
 5. `-` → Pop `c`, `(a+b)` → Push `((a+b)-c)`
 
-### **Output 1:**
+### **Output:**
 Infix: ((a+b)-c)
