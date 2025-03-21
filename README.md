@@ -1,5 +1,4 @@
 # Postfix-to-infix-converter
-# Postfix to Infix Converter
 
 This repository contains a C++ program that converts a mathematical expression from **postfix notation** (Reverse Polish Notation) to **infix notation** while maintaining the correct operator precedence.
 
