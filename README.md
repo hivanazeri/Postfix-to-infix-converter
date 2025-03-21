@@ -7,7 +7,7 @@ This repository contains a C++ program that converts a mathematical expression f
 ### What is Postfix Notation?
 Postfix notation (RPN) is a mathematical notation in which operators follow their operands. It eliminates the need for parentheses to define precedence.
 
-### 🔹 What Does This Program Do?
+### What Does This Program Do?
 - Takes a **postfix expression** as input.
 - Converts it to a **properly parenthesized infix expression**.
 - Ensures **correct operator precedence**.
